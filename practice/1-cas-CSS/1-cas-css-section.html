@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice (1. cas CSS sekcije)</title>
+    <!-- ! 2. nacin TAG STYLE U HEAD-->
+    <style>
+        h1 {
+            color: blue
+        }
+    </style>
+
+    <!-- ! 3. nacin - LINKOVANJE css fajla -->
+
+    <link rel="stylesheet" href="1-cas-css-section.css">
+
+    </head>
+<body>
+    <main>
+        <div>
+            <!-- ! 1. nacin U LINIJI KODA-->
+            <h1 style="color: red">Testing inline styles</h1>
+
+            <section>
+                <h1>Testing style tag in head element</h1>
+            </section>
+
+            <!-- ! 4. nacin (po mojoj racunici) KLASE-->
+            <h1 class="my-h1"> Testing class selector styling</h1>
+
+            <!-- ! 5. nacin ATRIBUTI-->
+            <button disabled>Testing attribute selector</button>
+
+            <!-- ! 6. nacin ID/evi-->
+            <ol id="selector-types">
+                 <li>Element Selector</li>
+                 <li>Class Selector</li>
+                 <li>Attribute Selector</li>
+                 <li>ID Selector</li>
+                 <li>Universal Selector <span class="star">*</span></li>
+            </ol>
+
+
+        </div>
+    </main>
+</body>
+</html>
